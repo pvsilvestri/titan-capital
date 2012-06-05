@@ -1,0 +1,38 @@
+name = Titan Capital
+description = Titan Capital Management theme, (C) 2012 Silvestri Consulting, LLC.  All Rights Reserved.
+screenshot = screenshot.png
+engine = phptemplate
+core = "6.x"
+version = 1.1
+
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[content_top] = Content Top
+regions[content_bottom] = Content Bottom
+regions[footer] = Footer
+regions[footer_left] = Footer Left
+regions[footer_right] = Footer Right
+regions[header_right] = Header Top Right
+
+;features[] = name
+features[] = search
+features[] = favicon
+features[] = primary_links
+
+;disabled features, uncomment to activate
+features[] = logo
+; features[] = slogan
+; features[] = mission
+features[] = secondary_links
+; features[] = node_user_picture
+; features[] = comment_user_picture
+
+stylesheets[all][] = style.css
+stylesheets[all][] = css/tabs.css
+stylesheets[all][] = css/layout.css
+stylesheets[all][] = css/ui.css
+stylesheets[all][] = css/main.css
+; stylesheets[all][] = css/link-icons.css
+; stylesheets[all][] = css/gallery.css
+stylesheets[print][] = css/print.css
+stylesheets[all][] = css/custom.css

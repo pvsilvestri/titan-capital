@@ -1,0 +1,16 @@
+
+Titan Capital Management Theme Version 1.1, 2012-06-05
+-----------------------------------
+Added CSS Classes for:
+  - Home Page Photo (.home-photo)
+Modified CSS for Performance Block
+
+Titan Capital Management Theme Version 1.0, 2012-05-22
+-----------------------------------
+Modified page.tpl.php to not show Page Titles
+Added CSS Classes for:
+  - "Past Results" Block
+  - Company Address
+  - "Home Page" Phrase
+  - "Site Powered By" & Copyright Phrases
+

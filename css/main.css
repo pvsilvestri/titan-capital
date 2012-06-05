@@ -1,0 +1,129 @@
+/**
+ * @file
+ * General Styles
+ *
+ * Sub-themes will probably want to override this file.
+ * If used as a starter, perform all styling changes in this file.
+ */
+
+body {
+  background: #fff;
+  color: #000;
+  font-size: 100%;
+}
+
+body, caption, th, td, input, textarea, select, option, legend, fieldset {
+  font-family: Arial, Helvetica, clean, sans-serif;
+}
+
+#page {
+  font-size: 13px;
+  line-height: 1.231em;
+}
+
+#header {
+  background: #eee;
+  padding: 1em 0;
+}
+
+#site-name a {
+  text-decoration: none;
+}
+
+#navigation { }
+
+ul.primary-links { }
+
+ul.primary-links li { }
+
+ul.primary-links a {
+  background: #fff;
+  color: #415780;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul.primary-links a:hover {
+  background: #415780;
+  color: #fff;
+}
+
+ul.secondary-links { }
+
+ul.secondary-links li { }
+
+ul.secondary-links a { }
+
+#content-inner {
+  padding: 1em;
+}
+
+#sidebar-left {
+  background: #eee;
+}
+
+#sidebar-right {
+  background: #eee;
+}
+
+#footer {
+  background: #eee;
+  font-size: 8pt;
+  text-align: center;
+}
+
+#block-menu-menu-footer-links ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#block-menu-menu-footer-links ul li {
+  display: inline;
+  margin: 0;
+  padding: 0 2px;
+}
+
+#block-menu-menu-footer-links a {
+  color: #444;
+  font-size: 9px;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+/* Titles  */
+
+h1 {
+  font-size: 2em;
+  line-height: 1.3em;
+  margin: 0 0 0.5em;
+}
+
+h2 {
+  color: #339;
+  font-size: 1.385em;
+  line-height: normal;
+  margin: 0.5em 0;
+}
+
+h3 {
+  color: #339;
+  font-size: 1.15em;
+  line-height: normal;
+  margin: 1em 0 0.4em;
+}
+
+h4 {
+  color: #339;
+  font-size: 1.1em;
+  line-height: normal;
+  margin: 1em 0 0.25em;
+}
+
+/* When declaring Link states, remember: LoVe HA : Link | Hover | Visited | Active */
+
+a:link, a:visited {
+  color: #339;
+}
+
+a:hover, a:active { }

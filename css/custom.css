@@ -1,0 +1,87 @@
+body {
+  background: #003366;
+}
+
+#page {
+  width: 1024px;
+}
+
+#header {
+  background: #047;
+  height: 100px;
+  padding-top: 10px;
+}
+
+#header-right {
+  border: 3px solid olive;
+  color: white;
+  float: right;
+  margin-top: -124px;
+  padding: 5px;
+  width: 350px;
+}
+
+#navigation {
+  float: right;
+  height: 25px;
+  margin-right: 20px;
+  margin-top: -110px;
+  width: 500px;
+}
+
+ul.primary-links {
+  float: right;
+  font-size: 1.1em;
+  line-height: 1.25em;
+  margin: 0;
+  padding: 0.8em 0;
+}
+
+ul.primary-links a {
+  -moz-border-radius: 5px 5px 5px 5px;
+  background: #18E;
+  color: #FFF;
+  padding: 0.4em 0.5em;
+}
+
+#main {
+  background: #FFF;
+}
+
+#footer-left {
+  float: left;
+  text-align: left;
+  width: 50%;
+}
+
+#footer-right {
+  float: left;
+  padding-right: 10px;
+  text-align: right;
+  width: 48%;
+}
+
+#footer {
+  font-size: 10pt;
+  height: 20px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+h1.company {
+  color: #333399;
+  font-size: 24pt;
+  text-align: center;
+}
+
+#header-right h2 {
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.home-photo {
+  float: right;
+  margin-top: -50px;
+}
